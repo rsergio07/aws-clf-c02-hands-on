@@ -1,0 +1,17 @@
+.DS_Store
+
+.venv/
+venv/
+
+.env
+.env.*
+
+.aws-sam/
+
+*.pem
+*.key
+
+.vscode/settings.json
+
+terraform.tfstate
+terraform.tfstate.backup

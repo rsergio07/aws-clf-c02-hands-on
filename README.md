@@ -1,104 +1,122 @@
 # AWS Cloud Practitioner Practical Guide
 
-A practical, hands-on guide for learning AWS while preparing for the AWS Certified Cloud Practitioner (CLF-C02) certification.
+A fast, hands-on AWS review guide for learners preparing for the AWS Certified Cloud Practitioner (CLF-C02) exam.
 
-This repository focuses on real AWS usage rather than theory. The goal is to reinforce core cloud concepts by creating, managing, and cleaning up AWS resources using the AWS Management Console, AWS CLI, and basic Infrastructure as Code.
+This repository is designed for students who have already completed AWS training courses, videos, or theory-based learning and want practical experience using real AWS services before taking the exam.
 
-## Objectives
+## Goal
 
-* Build practical familiarity with core AWS services.
-* Reinforce CLF-C02 concepts through repetition and experimentation.
-* Develop confidence navigating the AWS Console and AWS CLI.
-* Understand AWS security, pricing, and operational fundamentals.
-* Create a reusable personal reference for future AWS certifications.
+Reinforce CLF-C02 concepts through short, focused hands-on activities that can be completed in a few hours instead of weeks.
 
-## Target Certification
+The objective is not to become an AWS expert, but to gain enough practical exposure to confidently recognize services, understand common use cases, and navigate the AWS environment.
 
-* AWS Certified Cloud Practitioner (CLF-C02)
+## Who Is This Guide For?
 
-## Learning Approach
+This guide is intended for learners who:
 
-Each section focuses on a specific AWS service or domain and includes:
+* Have already completed CLF-C02 theory training
+* Understand basic AWS concepts
+* Want practical reinforcement before the exam
+* Prefer learning by doing rather than reading more documentation
 
-* Service overview
-* Key CLF-C02 concepts
-* Hands-on activities
-* AWS CLI examples
-* Cleanup procedures
-* Cost awareness notes
-* Personal observations and lessons learned
+## Estimated Completion Time
 
-## Repository Structure
+| Module                    | Estimated Time |
+| ------------------------- | -------------- |
+| Account Setup             | 20 min         |
+| IAM                       | 30 min         |
+| AWS CLI & CloudShell      | 20 min         |
+| Amazon S3                 | 45 min         |
+| Amazon EC2                | 45 min         |
+| Amazon VPC                | 30 min         |
+| Amazon RDS                | 30 min         |
+| Billing & Cost Management | 20 min         |
+| Final Review              | 15 min         |
 
-```text
-.
-├── README.md
-├── iam/
-├── cli/
-├── s3/
-├── ec2/
-├── vpc/
-├── rds/
-├── billing/
-└── notes/
-```
+**Total:** Approximately 4 hours.
 
-## Covered Topics
+## Learning Path
 
-### Security and Identity
+### 01 - Account Setup
 
 * AWS Account
-* IAM Users
-* IAM Groups
-* IAM Policies
+* Free Tier
+* Billing Alerts
 * MFA
+
+### 02 - IAM
+
+* Users
+* Groups
+* Policies
 * Least Privilege
 
-### Cloud Operations
+### 03 - AWS CLI and CloudShell
 
-* AWS CLI
-* AWS CloudShell
-* Regions and Availability Zones
+* CLI Installation
+* Authentication
+* Basic AWS Commands
+* CloudShell
 
-### Storage
+### 04 - Amazon S3
 
-* Amazon S3
-* Storage Classes
+* Buckets
+* Objects
 * Versioning
 * Lifecycle Policies
 
-### Compute
+### 05 - Amazon EC2
 
-* Amazon EC2
+* Launch Instances
 * Security Groups
 * Key Pairs
+* Instance Management
 
-### Networking
+### 06 - Amazon VPC
 
-* Amazon VPC
+* VPC Basics
 * Subnets
 * Route Tables
 * Internet Gateway
 
-### Databases
+### 07 - Amazon RDS
 
-* Amazon RDS
-* Managed Database Concepts
+* Managed Databases
+* Backups
+* Connectivity
 
-### Billing and Cost Management
+### 08 - Billing and Cost Management
 
 * AWS Budgets
 * Cost Explorer
-* Free Tier Monitoring
+* Billing Dashboard
 
-## Cost and Safety Principles
+### 09 - CLF-C02 Final Review
 
-* Always use Free Tier eligible resources when possible.
-* Review estimated costs before creating resources.
-* Delete resources immediately after completing exercises.
-* Configure AWS Budgets and billing alerts before starting labs.
-* Never perform daily activities using the root account.
+* Service Recognition
+* Common Exam Scenarios
+* Practical Readiness Checklist
+
+## AWS Cost Guidance
+
+This guide is designed to be completed using AWS Free Tier eligible services whenever possible.
+
+Before starting:
+
+1. Create a budget.
+2. Enable billing alerts.
+3. Review estimated costs before creating resources.
+4. Delete resources immediately after completing exercises.
+
+## Certification Focus
+
+This guide focuses on the four CLF-C02 exam domains:
+
+* Cloud Concepts
+* Security and Compliance
+* Cloud Technology and Services
+* Billing, Pricing, and Support
 
 ## Disclaimer
 
-This repository is intended for educational purposes and personal skill development. AWS services and pricing change over time; always verify current documentation and pricing before creating resources.
+AWS services, pricing, and console interfaces change over time. Always verify current AWS documentation before creating resources in a production or personal account.
